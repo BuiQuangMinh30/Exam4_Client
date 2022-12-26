@@ -43,6 +43,7 @@ export default function Header() {
             easing: theme.transitions.easing.easeInOut,
             duration: theme.transitions.duration.shorter,
           }),
+          boxShadow: (theme) => theme.customShadows.z8,
           ...(isOffset && {
             ...bgBlur({ color: theme.palette.background.default }),
             height: {
@@ -61,7 +62,7 @@ export default function Header() {
             underline="none"
             sx={{ ml: 1 }}
           >
-            <Label color="info"> v4.0.0 </Label>
+            {/* <Label color="info"> v4.0.0 </Label> */}
           </Link>
 
           <Box sx={{ flexGrow: 1 }} />
@@ -69,7 +70,7 @@ export default function Header() {
           {isDesktop && <NavDesktop isOffset={isOffset} data={navConfig} />}
 
           <Button variant="contained" target="_blank" rel="noopener" href={PATH_MINIMAL_ON_STORE}>
-            Purchase Now
+            Login
           </Button>
 
           {!isDesktop && <NavMobile isOffset={isOffset} data={navConfig} />}
