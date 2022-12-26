@@ -32,8 +32,8 @@ export const _addressBooks = [...Array(5)].map((_, index) => ({
 
 // ----------------------------------------------------------------------
 
-export const _skills = [...Array(3)].map((_, index) => ({
-  label: ['Development', 'Design', 'Marketing'][index],
+export const _skills = [...Array(4)].map((_, index) => ({
+  label: ['Chính trị', 'Học tập', 'Khoa học', 'Đời sống'][index],
   value: _mock.number.percent(index),
 }));
 

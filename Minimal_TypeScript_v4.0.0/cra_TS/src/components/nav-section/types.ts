@@ -1,4 +1,5 @@
 import { StackProps, ListItemButtonProps } from '@mui/material';
+import { NoInfer } from '@reduxjs/toolkit/dist/tsHelpers';
 
 // ----------------------------------------------------------------------
 
@@ -29,3 +30,11 @@ export interface NavSectionProps extends StackProps {
     items: NavListProps[];
   }[];
 }
+export type NavCateProps = {
+  id: number;
+  cate: string;
+};
+
+export type NavListCateProps = {
+  cate: string;
+};
