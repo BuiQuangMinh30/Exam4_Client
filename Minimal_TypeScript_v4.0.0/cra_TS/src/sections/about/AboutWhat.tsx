@@ -74,8 +74,8 @@ export default function AboutWhat() {
 
           <Grid item xs={12} md={6} lg={5}>
             <m.div variants={varFade().inRight}>
-              <Typography variant="h2" sx={{ mb: 3 }}>
-                What is minimal?
+              <Typography variant="h3" sx={{ mb: 3 }}>
+                EducationBook là cái gì?
               </Typography>
             </m.div>
 
@@ -86,10 +86,11 @@ export default function AboutWhat() {
                     theme.palette.mode === 'light' ? 'text.secondary' : 'common.white',
                 }}
               >
-                Our theme is the most advanced and user-friendly theme you will find on the market,
-                we have documentation and video to help set your site really easily, pre-installed
-                demos you can import in one click and everything from the theme options to page
-                content can be edited from the front-end. This is the theme you are looking for.
+                EducationBook  là thư viện của chúng tôi hay còn được coi là đền đài của văn hoá và sự uyên thâm.
+                Thư viện xuất hiện từ rất sớm, ngay khi loài người có nhu cầu lưu giữ thông tin.
+                Để mượn được tài liệu, người dùng tin bắt buộc phải đến thư viện và sử dụng
+                các sản phẩm thông tin truyền thống như: hệ thống mục lục, thư mục... cũng như các dịch vụ thông tin giản đơn như: đọc tại chỗ, mượn về nhà, sao chụp tài liệu…
+
               </Typography>
             </m.div>
 

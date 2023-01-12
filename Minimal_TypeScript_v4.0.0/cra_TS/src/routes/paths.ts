@@ -31,7 +31,15 @@ export const PATH_PAGE = {
   page403: '/403',
   page404: '/404',
   page500: '/500',
-  components: '/components',
+  danhmuc: '/danh-muc',
+  bookdetail: (name: string) => `/sach/${name}`,
+  rentail: 'thue-sach',
+
+  // (name: string) => path(ROOTS_DASHBOARD, `/chat/${name}`),
+  // danhmuc: {
+  //   root: '/danh-muc',
+  //   detail: (id: string) => `/danh-muc/${id}`,
+  // },
 };
 
 export const PATH_DASHBOARD = {

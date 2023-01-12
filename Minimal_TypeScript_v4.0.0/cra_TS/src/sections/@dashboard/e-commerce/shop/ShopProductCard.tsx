@@ -103,7 +103,6 @@ export default function ShopProductCard({ product }: Props) {
         </Link>
 
         <Stack direction="row" alignItems="center" justifyContent="space-between">
-          <ColorPreview colors={colors} />
 
           <Stack direction="row" spacing={0.5} sx={{ typography: 'subtitle1' }}>
             {priceSale && (

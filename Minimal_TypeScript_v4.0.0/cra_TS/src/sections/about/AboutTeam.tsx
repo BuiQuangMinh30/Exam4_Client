@@ -57,7 +57,7 @@ export default function AboutTeam() {
 
       <m.div variants={varFade().inUp}>
         <Typography variant="h2" sx={{ my: 3 }}>
-          Great team is the key
+          Đội ngũ tuyệt vời là chìa khóa
         </Typography>
       </m.div>
 
@@ -69,8 +69,8 @@ export default function AboutTeam() {
             color: 'text.secondary',
           }}
         >
-          Minimal will provide you support if you have any problems, our support team will reply
-          within a day and we also have detailed documentation.
+          EducationBook sẽ hỗ trợ bạn nếu bạn gặp bất kỳ vấn đề nào,
+          nhóm hỗ trợ của chúng tôi sẽ trả lời trong vòng một ngày và chúng tôi cũng có tài liệu chi tiết.
         </Typography>
       </m.div>
 
@@ -143,11 +143,11 @@ function MemberCard({ member }: MemberCardProps) {
         {role}
       </Typography>
 
-      <Box sx={{ px: 1 }}>
+      <Box sx={{ px: 1, p: 2 }}>
         <Image alt={name} src={avatar} ratio="1/1" sx={{ borderRadius: 2 }} />
       </Box>
 
-      <Stack direction="row" alignItems="center" justifyContent="center" sx={{ p: 2 }}>
+      {/* <Stack direction="row" alignItems="center" justifyContent="center" sx={{ p: 2 }}>
         {_socials.map((social) => (
           <IconButton
             key={social.name}
@@ -161,7 +161,7 @@ function MemberCard({ member }: MemberCardProps) {
             <Iconify icon={social.icon} />
           </IconButton>
         ))}
-      </Stack>
+      </Stack> */}
     </Card>
   );
 }

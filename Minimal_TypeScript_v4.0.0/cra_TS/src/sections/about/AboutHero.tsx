@@ -36,18 +36,27 @@ export default function AboutHero() {
       <Container component={MotionContainer}>
         <StyledContent>
           <TextAnimate
-            text="Who"
+            text="Thư"
+            sx={{
+              color: 'primary.main',
+              pr: 2
+            }}
+            variants={varFade().inRight}
+          />
+          <TextAnimate
+            text="viện"
             sx={{
               color: 'primary.main',
             }}
-            variants={varFade().inRight}
+            variants={varFade().inDown}
           />
 
           <br />
 
           <Stack spacing={2} display="inline-flex" direction="row" sx={{ color: 'common.white' }}>
-            <TextAnimate text="we" />
-            <TextAnimate text="are?" />
+            <TextAnimate text="của" />
+            <TextAnimate text="chúng" />
+            <TextAnimate text="tôi?" />
           </Stack>
 
           <m.div variants={varFade().inRight}>
@@ -59,8 +68,8 @@ export default function AboutHero() {
                 fontWeight: 'fontWeightMedium',
               }}
             >
-              Let's work together and
-              <br /> make awesome site easily
+              Mang lại những giá trị tốt nhất
+              <br /> vì một cộng đồng phát triển
             </Typography>
           </m.div>
         </StyledContent>
